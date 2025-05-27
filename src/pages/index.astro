@@ -1,50 +1,49 @@
 ---
-import BaseHead from '../components/BaseHead.astro';
-import Header from '../components/Header.astro';
-import Footer from '../components/Footer.astro';
-import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 ---
 
-<!doctype html>
 <html lang="en">
-	<head>
-		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
-	</head>
-	<body>
-		<Header />
-		<main>
-			<h1>🧑‍🚀 Hello, Astronaut!</h1>
-			<p>
-				Welcome to the official <a href="https://astro.build/">Astro</a> blog starter template. This
-				template serves as a lightweight, minimally-styled starting point for anyone looking to build
-				a personal website, blog, or portfolio with Astro.
-			</p>
-			<p>
-				This template comes with a few integrations already configured in your
-				<code>astro.config.mjs</code> file. You can customize your setup with
-				<a href="https://astro.build/integrations">Astro Integrations</a> to add tools like Tailwind,
-				React, or Vue to your project.
-			</p>
-			<p>Here are a few ideas on how to get started with the template:</p>
-			<ul>
-				<li>Edit this page in <code>src/pages/index.astro</code></li>
-				<li>Edit the site header items in <code>src/components/Header.astro</code></li>
-				<li>Add your name to the footer in <code>src/components/Footer.astro</code></li>
-				<li>Check out the included blog posts in <code>src/content/blog/</code></li>
-				<li>Customize the blog post page layout in <code>src/layouts/BlogPost.astro</code></li>
-			</ul>
-			<p>
-				Have fun! If you get stuck, remember to <a href="https://docs.astro.build/"
-					>read the docs
-				</a> or <a href="https://astro.build/chat">join us on Discord</a> to ask questions.
-			</p>
-			<p>
-				Looking for a blog template with a bit more personality? Check out <a
-					href="https://github.com/Charca/astro-blog-template"
-					>astro-blog-template
-				</a> by <a href="https://twitter.com/Charca">Maxi Ferreira</a>.
-			</p>
-		</main>
-		<Footer />
-	</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kevin Heuzey</title>
+    <style>
+      body {
+        font-family: Inter, sans-serif;
+        margin: 0;
+        padding: 40px;
+        max-width: 720px;
+        margin: auto;
+        color: #111;
+        background: white;
+      }
+      h1 {
+        font-size: 2.5rem;
+        font-weight: 600;
+        margin-bottom: 1rem;
+      }
+      p {
+        line-height: 1.6;
+        margin-bottom: 1.5rem;
+      }
+      .footer {
+        margin-top: 4rem;
+        font-size: 0.9rem;
+        color: #888;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Kevin Heuzey</h1>
+    <p><strong>Kevin Heuzey</strong> is a French-Israeli entrepreneur and early pioneer in the cryptocurrency sector. He began building industrial-scale Bitcoin mining operations in Ukraine in 2015, and later, in 2017, led the development of what was then the largest Bitcoin mining facility in France. The project was hosted on the Nokia Paris-Saclay campus and supported by Nokia Bell Labs.</p>
+
+    <p>In 2016, Kevin participated in the <strong>Israel Tech Challenge</strong>, a selective nonprofit program backed by the Israeli National Cyber Bureau and the Jewish Agency. The initiative connects global tech talent with Israel’s high-tech ecosystem through intensive training in cybersecurity, blockchain, and data science.</p>
+
+    <p>As founder of the <strong>Blockchain Research Institute</strong>, Kevin spearheaded research into sustainable crypto infrastructure. He developed <strong>BigBang Energy</strong>, a system that captured waste heat from Bitcoin miners using dielectric oil and converted it into thermal energy to power agricultural greenhouses. The project was presented in 2018 at the inaugural <strong>Monaco International Blockchain Conference</strong>.</p>
+
+    <p>In 2024, following the conclusion of the Institute, Kevin quietly launched a new venture in the United States: <strong>Integrity.farm</strong>, after raising a pre-seed round of $1,000,000 from the French company <strong>Vistory</strong>. Vistory is a French technology firm specializing in secure, decentralized manufacturing solutions. Their flagship platform, MainChain, enables distributed production with traceability and intellectual property protection, serving sectors such as defense, aerospace, and medical devices.</p>
+
+    <p>Operating under the radar, Integrity.farm is developing a groundbreaking protocol backed by a provisional U.S. patent for a <strong>virtual Bitcoin miner</strong>—a fully on-chain system that emulates the performance of physical Bitcoin mining hardware using blockchain logic alone. This model unlocks new use cases for programmable yield in DeFi, gaming, and NFT ecosystems, while remaining fully decentralized and regulatory-conscious.</p>
+
+    <div class="footer">&copy; Kevin Heuzey – All rights reserved.</div>
+  </body>
 </html>
